@@ -49,7 +49,6 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding:20px;
 }
 
 header nav a{
@@ -84,7 +83,7 @@ header div a{
 
 .header-down img{
     width: 650px;
-    margin-bottom: 0;
+    margin-bottom: -25px;
 }
 
 #media{
@@ -112,6 +111,10 @@ header div a{
     width: 60%;
 }
 
+#newapp{
+    margin-bottom: 50px;
+}
+
 #newapp .desc .title{
     font-size: 30px;
     color:#27242b;
@@ -126,6 +129,7 @@ header div a{
     width: 80%;
     text-align: center;
     margin:auto;
+    padding:50px 0;
 }
 
 .avatar{
@@ -166,11 +170,13 @@ header div a{
 #last .first-col{
     float:left;
     width: 50%;
+    padding:25px;
 }
 
 #last .second-col{
     float:right;
     width: 50%;
+    padding:25px;
 }
 
 #last .separator{
@@ -198,6 +204,24 @@ footer .third-col{
     float:right;
     width: 33%;
     text-align: center;
+}
+
+.footer-down{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-down ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-down li{
+    padding:0 20px;
 }
 
 @media (max-width:800px) {
